@@ -20,6 +20,7 @@ import ImageuploadPlugin from '@ckeditor/ckeditor5-image/src/imageupload';
 import LinkPlugin from '@ckeditor/ckeditor5-link/src/link';
 import ListPlugin from '@ckeditor/ckeditor5-list/src/list';
 import ParagraphPlugin from '@ckeditor/ckeditor5-paragraph/src/paragraph';
+import HighlightPlugin from '@ckeditor/ckeditor5-highlight/src/highlight';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -40,7 +41,8 @@ ClassicEditor.build = {
 		ImageuploadPlugin,
 		LinkPlugin,
 		ListPlugin,
-		ParagraphPlugin
+		ParagraphPlugin,
+		HighlightPlugin
 	],
 	config: {
 		toolbar: {
@@ -55,7 +57,8 @@ ClassicEditor.build = {
 				'imageUpload',
 				'blockQuote',
 				'undo',
-				'redo'
+				'redo',
+				'highlight'
 			]
 		},
 		image: {
