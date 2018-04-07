@@ -1,5 +1,5 @@
 {
-	"name": "@clough/ckeditor5-build-clough",
+	"name": "@warrenclough/ckeditor5-build-classic",
 	"version": "1.0.0-beta.1",
 	"description": "CKEditor 5 classic editor build.",
 	"keywords": [
@@ -44,10 +44,10 @@
 	"author": "CKSource (http://cksource.com/)",
 	"license": "(GPL-2.0 OR LGPL-2.1 OR MPL-1.1)",
 	"homepage": "https://ckeditor.com",
-	"bugs": "https://github.com/clough/ckeditor5-build-clough/issues",
+	"bugs": "https://github.com/clough/ckeditor5-build-classic/issues",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/clough/ckeditor5-build-clough.git"
+		"url": "https://github.com/clough/ckeditor5-build-classic.git"
 	},
 	"scripts": {
 		"build": "npm run create-entry-file && npm run build-ckeditor",
