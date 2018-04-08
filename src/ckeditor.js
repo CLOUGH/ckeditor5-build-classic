@@ -75,7 +75,6 @@ ClassicEditor.build = {
 			toolbar: [
 				'imageStyle:full',
 				'imageStyle:alignLeft',
-				'imageStyle:alignCenter',
 				'imageStyle:alignRight',
 				'|',
 				'imageTextAlternative'
