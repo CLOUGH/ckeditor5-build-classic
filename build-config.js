@@ -62,13 +62,17 @@ module.exports = {
 
 		image: {
 			toolbar: [
-				'full',
-				'imageStyle:side',
+				'imageStyle:full',
 				'imageStyle:alignLeft',
 				'imageStyle:alignCenter',
 				'imageStyle:alignRight',
 				'|',
 				'imageTextAlternative'
+			],
+			styles: [
+				'full',
+				'alignLeft',
+				'alignRight'
 			]
 		},
 
