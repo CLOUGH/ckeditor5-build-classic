@@ -63,10 +63,10 @@ module.exports = {
 		image: {
 			toolbar: [
 				'full',
-				'side',
-				'alignLeft',
-				'alignCenter',
-				'alignRight',
+				'imageStyle:side',
+				'imageStyle:alignLeft',
+				'imageStyle:alignCenter',
+				'imageStyle:alignRight',
 				'|',
 				'imageTextAlternative'
 			]
