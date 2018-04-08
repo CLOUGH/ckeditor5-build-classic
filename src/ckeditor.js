@@ -21,6 +21,8 @@ import LinkPlugin from '@ckeditor/ckeditor5-link/src/link';
 import ListPlugin from '@ckeditor/ckeditor5-list/src/list';
 import ParagraphPlugin from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import HighlightPlugin from '@ckeditor/ckeditor5-highlight/src/highlight';
+import FontPlugin from '@ckeditor/ckeditor5-font/src/font';
+import AlignmentPlugin from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -42,23 +44,31 @@ ClassicEditor.build = {
 		LinkPlugin,
 		ListPlugin,
 		ParagraphPlugin,
-		HighlightPlugin
+		HighlightPlugin,
+		FontPlugin,
+		AlignmentPlugin
 	],
 	config: {
 		toolbar: {
 			items: [
 				'heading',
 				'|',
+				'fontSize',
+				'fontFamily',
 				'bold',
 				'italic',
-				'link',
+				'|',
 				'bulletedList',
 				'numberedList',
+				'alignment',
+				'|',
+				'link',
 				'imageUpload',
 				'blockQuote',
+				'highlight',
+				'|',
 				'undo',
-				'redo',
-				'highlight'
+				'redo'
 			]
 		},
 		image: {

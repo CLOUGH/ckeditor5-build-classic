@@ -15,7 +15,6 @@ module.exports = {
 	// Plugins to include in the build.
 	plugins: [
 		'@ckeditor/ckeditor5-essentials/src/essentials',
-
 		'@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter',
 		'@ckeditor/ckeditor5-autoformat/src/autoformat',
 		'@ckeditor/ckeditor5-basic-styles/src/bold',
@@ -31,7 +30,9 @@ module.exports = {
 		'@ckeditor/ckeditor5-link/src/link',
 		'@ckeditor/ckeditor5-list/src/list',
 		'@ckeditor/ckeditor5-paragraph/src/paragraph',
-		'@ckeditor/ckeditor5-highlight/src/highlight'
+		'@ckeditor/ckeditor5-highlight/src/highlight',
+		'@ckeditor/ckeditor5-font/src/font',
+		'@ckeditor/ckeditor5-alignment/src/alignment',
 	],
 
 	// Editor config.
@@ -40,16 +41,22 @@ module.exports = {
 			items: [
 				'heading',
 				'|',
+				'fontSize',
+				'fontFamily',
 				'bold',
 				'italic',
-				'link',
+				'|',
 				'bulletedList',
 				'numberedList',
+				'alignment',
+				'|',
+				'link',
 				'imageUpload',
 				'blockQuote',
+				'highlight',
+				'|',
 				'undo',
-				'redo',
-				'highlight'
+				'redo'
 			]
 		},
 
